@@ -43,7 +43,7 @@ def decrypt():
         base64_bytes = base64.b64decode(encrypted_message)
         encrypt = base64_bytes.decode("ascii")
 
-        Label(screen2,text="Plaintext has been encrypted!", font=FONT, fg=PERIWINKLE).place(x=5,y=6)
+        Label(screen2,text="Plaintext has been decrypted!", font=FONT, fg=PERIWINKLE).place(x=5,y=6)
         text2 = Text(screen2, font="30", bd=4,wrap=WORD)
         text2.place(x=2,y=30,width=390,height=180)
         text2.insert(END,encrypt)
