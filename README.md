@@ -1,3 +1,5 @@
+# Secret Communication Application
+
 This Python application I created allows users to encrypt and decrypt messages using a secret key. The GUI interface provides a text box to input messages, another text box for the secret key (which is hidden), and buttons to encrypt, decrypt, and clear inputs.
 
 Modules Used
